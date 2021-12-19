@@ -278,3 +278,17 @@ button:disabled {
     position: relative;
     outline: none;
 }
+
+
+.behelit {
+  padding-top: 150px;
+  margin: auto;
+}
+
+.intro-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+}

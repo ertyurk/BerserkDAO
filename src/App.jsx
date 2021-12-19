@@ -193,9 +193,43 @@ const App = () => {
     return (
       <div className="landing">
         <h1>Welcome to ⚔️ BerserkDAO</h1>
+        <p className="intro-text">
+          BerserkDAO is a decentralized application that allows you to vote on
+          proposals and receive tokens for your membership. Mint your NFT in{" "}
+          <i>RINKEBY</i> today!
+        </p>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
+        <p className="intro-text">
+          See our token contract
+          <a
+            href="https://rinkeby.etherscan.io/token/0x9fb4a8426db45dfa98e349e50c43c7a78569bc34?a=0xd557f71c163fb5f6d78b82c0b060785bb7853606"
+            target="_blank"
+            rel="noreferrer"
+            className="intro-text"
+          >
+            here
+          </a>
+        </p>
+        <p className="intro-text">
+          See our NFT{""}
+          <a
+            href="https://testnets.opensea.io/assets/0x0ED726F94A5DF3df3f1cBc80AE1ACb50533ce161/0"
+            target="_blank"
+            rel="noreferrer"
+            className="intro-text"
+          >
+            here{" "}
+          </a>
+        </p>
+        <img
+          className="behelit"
+          src="/behelit.png"
+          alt="behelit"
+          width="278"
+          height="264"
+        />
         <div className="footer-container">
           <img
             alt="Twitter Logo"
