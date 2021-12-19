@@ -259,7 +259,7 @@ const App = () => {
     return (
       <div className="member-page">
         <h1> ⚔️ BerserkDAO Member Page</h1>
-        <p>Congratulations on being a member</p>
+        <p className="intro-text">Congratulations on being a member!</p>
         <div>
           <div>
             <h2>Member List</h2>
